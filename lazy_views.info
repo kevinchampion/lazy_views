@@ -1,0 +1,11 @@
+name = Lazy Views
+description = Lazily loads views after initial page request, which is helpful for caching.
+core = 7.x
+package = Views
+version = 7.x-1.0
+
+dependencies[] = ctools
+dependencies[] = views
+
+files[] = lazy_views.views.inc
+files[] = plugins/views/views_plugin_cache_lazy_views.inc
